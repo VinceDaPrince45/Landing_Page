@@ -28,12 +28,12 @@ ul {
     display:flex;
     margin:0;
     padding:0;
-    gap: 20px;
+    gap: 30px;
 }
 
 a {
     text-decoration: none;
-    font-size:18px; 
+    font-size:20px; 
     color:#e5e7eb;
 }
 
@@ -60,7 +60,7 @@ a {
 }
 
 .section1 .right-side {
-    margin-left: 50px;
+    margin-left: 100px;
     flex:auto;
     display:flex;
 }
@@ -91,65 +91,101 @@ a {
 
 .section2 .sectionheader {
     text-align:center;
-    font-size:36px;
+    font-size:48px;
     color: #1f2937;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .section2 .images {
     display:flex;
     flex-wrap:wrap;
     justify-content: center;
-    gap:30px;
+    gap:60px;
+    padding:50px;
 }
 
 .section2 .subsection {
-    width: 260px;
+    width: 180px;
+    text-align: center;
 }
 
 .section2 .image-placeholder {
-    width:200px;
-    height:200px;
+    width:180px;
+    height:180px;
+    margin:0 0 10px 0;
+    background-color: white;
+    border-radius: 12px;
+    border: 4px solid #3882f6;
 }
 
 .section3 {
     background-color: #e5e7eb;
+    padding: 70px;
 }
 
 .section3 .content {
     display:flex;
     flex-direction: column;
-    padding:50px;
+    flex:auto;
+    padding:60px 270px;
 }
 
 .section3 .content p {
     font-size: 36px;
     font-style:italic;
     font-weight: 300;
-    color: #1f2937
+    color: #1f2937;
+    margin:20px 0 0 0;
+}
+
+.section3 .content div {
+    text-align: end;
+    color:black;
+    font-size:26px;
+    font-weight:800;
 }
 
 .section4 {
     display:flex;
     justify-content: center;
     align-items: flex-end;
-    padding:50px;
+    padding:70px 50px;
 }
 
 .section4 .container {
+    flex:auto;
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #3882f6;
+    color:white;
+    padding:50px 120px;
+    border-radius:12px;
+    .right-side button {
+        color:white;
+        padding: 7px 35px;
+        border: 2px solid white;
+        border-radius:8px;
+        font-size: 22px;
+    }
 }
 
 .section4 .container .left-side {
     display:column;
+    .text {
+        font-size:26px;
+        font-weight:700;
+    }
+    .subtext{
+        color:rgb(241, 240, 240);
+    }
 }
 
 .footer {
     background-color: #1f2937;
     color:white;
+    text-align: center;
+    padding:50px;
 }
 
 .image-placeholder {
