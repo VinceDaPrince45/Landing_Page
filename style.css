@@ -127,7 +127,7 @@ a {
     display:flex;
     flex-direction: column;
     flex:auto;
-    padding:60px 270px;
+    padding:60px 200px;
 }
 
 .section3 .content p {
